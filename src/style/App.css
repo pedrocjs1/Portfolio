@@ -1265,7 +1265,7 @@ ul.social-buttons li a:active {
 }
 .background:hover {
   background: #26316b  !important;
-  color: #f3eeee;
+  color: #f3eeee !important;
 
 }
 
@@ -1352,3 +1352,10 @@ body {
   }  
   /* navbar css for mobile end */
 }
+
+.style-p {
+  font-size: .8rem;
+  padding: 0 !important;
+
+}
+

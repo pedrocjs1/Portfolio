@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Tecnologies from './components/Tecnologies';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
@@ -25,6 +27,7 @@ function App() {
       </header>
       <About />
       <Services />
+      <Tecnologies />
       <Portfolio />
       <Contact />
       <Footer />

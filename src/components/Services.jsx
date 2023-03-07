@@ -22,25 +22,25 @@ export default function Services() {
           <div className="card card-edit p-3">
             <img src={FrontEnd} className="card-img-top" alt="FrontEnd" />
             <div className="card-body">
-              <p className="card-text text-break">Desarrollo FrontEnd</p>
+              <p className="card-text text-break style-p">Desarrollo FrontEnd</p>
             </div>
           </div>
           <div className="card card-edit p-3" >
             <img src={BackEnd} className="card-img-top" alt="BackEnd" />
             <div className="card-body">
-              <p className="card-text text-break">Desarrollo BackEnd</p>
+              <p className="card-text text-break style-p">Desarrollo BackEnd</p>
             </div>
           </div>
           <div className="card card-edit p-3">
               <img src={BaseDeDatos} className="card-img-top" alt="BaseDeDatos" />
               <div className="card-body">
-                <p className="card-text text-break">Base de datos</p>
+                <p className="card-text text-break style-p">Base de datos</p>
               </div>         
           </div>
           <div className="card card-edit p-3" >
             <img src={Ceo} className="card-img-top" alt="Ceo" />
             <div className="card-body">
-              <p className="card-text "><span className='text-break'>Posicionamiento &nbsp;SEO</span></p>
+              <p className="card-text style-p text-break"><span className='text-break'>Posicionamiento&nbsp;SEO</span></p>
             </div>
           </div>
         </div>

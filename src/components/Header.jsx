@@ -14,7 +14,7 @@ function Header() {
           <div className="intro-text">
             <div className="intro-lead-in">Hola, Soy Pedro</div>
             <div className="intro-heading">Java Full Stack Developer</div>
-            <a href={Pdf} className="page-scroll text-white btn btn-xl  background">Descargar Cv</a>
+            <a href={Pdf} className="page-scroll text-white btn btn-xl  background" target="_blank">Descargar Cv</a>
           </div>
         </div>
       </header>
