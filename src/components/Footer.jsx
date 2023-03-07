@@ -18,8 +18,8 @@ export default function Footer() {
                     </div>
                     <div className="">
                         <ul className="d-flex justify-content-center gap-2 social-buttons">
-                            <a href="https://github.com/pedrocjs1"><AiFillGithub style={{ fontSize: '3rem' }} /> </a>      
-                            <a href="https://www.linkedin.com/in/pedro-vega-72a7a8239/"><AiFillLinkedin style={{ fontSize: '3rem' }} /></a>
+                            <a href="https://github.com/pedrocjs1"><AiFillGithub style={{ fontSize: '3rem' }} target="_blank" /> </a>      
+                            <a href="https://www.linkedin.com/in/pedro-vega-72a7a8239/"><AiFillLinkedin style={{ fontSize: '3rem' }}  target="_blank"/></a>
                         </ul>
                     </div>
                 </div>
