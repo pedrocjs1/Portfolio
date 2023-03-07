@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import Navbar from './components/Nav';
+import Header from './components/Header'
+import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      
+    <div id="page-top" className="index App" data-pinterest-extension-installed="cr1.3.4">
+      <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header />
       </header>
+      <About />
+      <Services />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
     </div>
   );
 }
