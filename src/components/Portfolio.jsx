@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "../style/App.css";
+import "../style/Portfolio.css";
 import { FiLink } from "react-icons/fi";
 import { DiCode } from "react-icons/di";
 

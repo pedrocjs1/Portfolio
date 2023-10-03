@@ -1,12 +1,12 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'jquery/dist/jquery.min.js';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import '../style/App.css';
-import BackEnd from '../images/BackEnd.png'
-import FrontEnd from '../images/FrontEnd.png'
-import Ceo from '../images/Ceo.png'
-import BaseDeDatos from '../images/BaseDeDatos.png'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "jquery/dist/jquery.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "../style/Services.css";
+import BackEnd from "../images/BackEnd.png";
+import FrontEnd from "../images/FrontEnd.png";
+import Ceo from "../images/Ceo.png";
+import BaseDeDatos from "../images/BaseDeDatos.png";
 
 export default function Services() {
   return (
@@ -22,25 +22,29 @@ export default function Services() {
           <div className="card card-edit p-3">
             <img src={FrontEnd} className="card-img-top" alt="FrontEnd" />
             <div className="card-body">
-              <p className="card-text text-break style-p">Desarrollo FrontEnd</p>
+              <p className="card-text text-break style-p">
+                Desarrollo FrontEnd
+              </p>
             </div>
           </div>
-          <div className="card card-edit p-3" >
+          <div className="card card-edit p-3">
             <img src={BackEnd} className="card-img-top" alt="BackEnd" />
             <div className="card-body">
               <p className="card-text text-break style-p">Desarrollo BackEnd</p>
             </div>
           </div>
           <div className="card card-edit p-3">
-              <img src={BaseDeDatos} className="card-img-top" alt="BaseDeDatos" />
-              <div className="card-body">
-                <p className="card-text text-break style-p">Base de datos</p>
-              </div>         
+            <img src={BaseDeDatos} className="card-img-top" alt="BaseDeDatos" />
+            <div className="card-body">
+              <p className="card-text text-break style-p">Base de datos</p>
+            </div>
           </div>
-          <div className="card card-edit p-3" >
+          <div className="card card-edit p-3">
             <img src={Ceo} className="card-img-top" alt="Ceo" />
             <div className="card-body">
-              <p className="card-text style-p text-break"><span className='text-break'>Posicionamiento&nbsp;SEO</span></p>
+              <p className="card-text style-p text-break">
+                <span className="text-break">Posicionamiento&nbsp;SEO</span>
+              </p>
             </div>
           </div>
         </div>
@@ -48,4 +52,3 @@ export default function Services() {
     </section>
   );
 }
-

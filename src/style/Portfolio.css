@@ -1,0 +1,228 @@
+.card-container {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/homebanking.png");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-text-h {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transform: translateY(19%);
+  z-index: 1;
+}
+
+.card-container:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-container-petShop {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/huellitas-portfolio.png");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container-petShop:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-container-petShop:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-container-tech {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/techtitans.png");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container-tech:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-container-tech:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-container-amazing {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/amazing.png");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container-amazing:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-container-amazing:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-container-snake {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/snake.jpeg");
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container-snake:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-container-snake:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-container-lawer {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-image: url("../images/lawers.png");
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-container-lawer:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.card-container-lawer:hover .card-text-h {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-img-overlay {
+  padding: 0 !important;
+}
+.card-title {
+  margin-bottom: 0 !important;
+}
+.border-style {
+  background-color: #033a80 !important;
+  padding: 0.3rem !important;
+  border-radius: 3px !important;
+}
